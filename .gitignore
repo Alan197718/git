@@ -39,6 +39,11 @@ __pycache__/
 venv/
 .venv/
 
+# ---- 工具 / AI 助手本地目录(不入库)----
+.workbuddy/
+.claude/
+.cursor/
+
 # ---- 密钥 / 本地配置 ----
 *.pem
 *.key

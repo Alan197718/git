@@ -1,0 +1,45 @@
+# ---- 通用 ----
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ---- 嵌入式 / PlatformIO ----
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# ---- 编译产物 ----
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+build/
+Debug/
+Release/
+
+# ---- IDE ----
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+JLinkLog.txt
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# ---- 密钥 / 本地配置 ----
+*.pem
+*.key
+.env
